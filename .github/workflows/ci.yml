@@ -4,13 +4,14 @@ on:
   push:
     branches:
       - main
-      - staging
+      - beta
       - staging-frontend
       - staging-backend
+      - "feature/**"
   pull_request:
     branches:
       - main
-      - staging
+      - beta
       - staging-frontend
       - staging-backend
 
